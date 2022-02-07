@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv('data_machine_learning_1000rows.csv')
+dataset = pd.read_csv('Position_Salaries.csv')
 X = dataset.iloc[:, 0:6].values
 y = dataset.iloc[:, 6].values
 
